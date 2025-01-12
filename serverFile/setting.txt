@@ -1,0 +1,15 @@
+가상환경 
+python -m venv venv
+.\venv\Scripts\activate
+
+패키지 설치
+pip install fastapi
+pip install uvicorn
+pip install paymentwall-python  //페이먼트월 관련
+
+
+실행 명령
+uvicorn server:app --reload
+
+접속 url
+http://127.0.0.1:8000/docs
